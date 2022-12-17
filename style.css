@@ -1,0 +1,108 @@
+/* reset 2 thuộc tính này về 0 margin , padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.banner {
+    border: 1px solid red;
+    height: 685px;
+    /* chiều cao */
+    width: 100%px;
+    /* chiều rộng */
+    background-image: url(./banner.jpg);
+    /* gán link ảnh */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: được dùng cho thẻ (div) còn thẻ img k dùng được*/
+    padding: 20px;
+    ;
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+}
+
+.about,
+.sign {
+    text-decoration: none;
+    /* bỏ gạch chân chữ  */
+    float: right;
+    /* dịch văn bản sang bên phải */
+    display: block;
+    text-transform: uppercase;
+    /* viết hoa tất cả văn bản */
+    border-radius: 8px;
+    /* bo tròn chữ */
+    padding: 7px
+}
+
+.sign {
+    margin-right: 8px
+        /* di chuyển sang phải */
+}
+
+.logo {
+    background-image: url(./hapoERP.png);
+    /* gán link ảnh */
+    margin-top: 40px;
+    height: 61px;
+    width: 250px;
+    margin-left: 521px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-start-now {
+
+    text-align: center;
+
+}
+
+button {
+    padding: 9px;
+    margin-top: 6px;
+    text-transform: capitalize;
+    border-radius: 9px;
+    border: 1px solid green;
+
+}
+
+
+.conent-center {
+    height: 50px;
+    text-align: center;
+
+
+}
+
+.left,
+.right,
+.center {
+    width: 33%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+span {
+    display: block;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
